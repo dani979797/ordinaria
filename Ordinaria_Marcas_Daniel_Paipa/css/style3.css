@@ -1,0 +1,135 @@
+@font-face {
+    font-family: SuperMario256;
+    src: url(../font/SuperMario256.ttf);
+}
+.container{
+    background-color: paleturquoise;
+    background-attachment: fixed;
+    width: 1000px;
+    height: 800px;
+    border: 7px solid #C00;
+    position: relative;
+    margin: auto;
+}
+.titulo{
+    font-family: SuperMario256;
+    color: #C00;
+    position: absolute;
+    font-size: 30px;
+    top: 330px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 3;
+}
+.suelo{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/suelo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    bottom: 0px;
+    z-index: 2;
+}
+.rampa{
+    position: absolute;
+    background-image: url(../img/fondo.png);
+    width: 780px;
+    height: 400px;
+    right: 0px;
+    bottom: 110px;
+    z-index: 1;
+}
+.dragondos{
+    position: absolute;
+    top: 205px;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dragon2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.dragontres{
+    position: absolute;
+    top: 205px;
+    right: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dragon2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.dragonuno{
+    position: absolute;
+    top: -155px;
+    right: 510px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dargon1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.yoshi{
+    position: absolute;
+    top: -145px;
+    right: 400px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/moneda.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.mario{
+    position: absolute;
+    top: -65px;
+    right: 250px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/mario.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+div > .bala > img{
+    position: absolute;
+    bottom: 150px;
+    right: 400px;
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.resultadouno{
+    position: absolute;
+    top: -350px;
+    left: 120px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/recompesa1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    display: block;
+}
+.resultadodos{
+    position: absolute;
+    top: -350px;
+    right: 120px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/recompensa2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 3;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: #0c3e11;
+    margin: auto;   
+}
+table{
+    border: 3px solid black;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+td{
+    border: 3px solid black;
+}
+img[src="img/cabecera.png"]{
+    margin: 0 auto;
+    display: block;
+}
